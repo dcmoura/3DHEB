@@ -29,13 +29,11 @@ Some images produced with this code, and an animation based on an extension of t
 * Animation based on 3DHEB:
 [![Animation based on 3DHEB](http://dcmoura.github.io/3DHEB/img/video_poster_3dheb_2.png)](https://vimeo.com/danielcmoura/3dheb)
 
-
-
 * US Migrations Flow - 10K edges:
-![US Migrations Flow](http://dcmoura.github.io/3DHEB/img/migrations_flow.png)
+<img src=http://dcmoura.github.io/3DHEB/img/migrations_flow.png width="67%" align="middle"/> 
 
 * US Airlines Flow - 1K edges:
-![US Airlines Flow](http://dcmoura.github.io/3DHEB/img/airlines_flow.png)
+<img src=http://dcmoura.github.io/3DHEB/img/airlines_flow.png width="67%" align="middle"/> 
 
 * Pattern1 from the [University of Florida Sparse Matrix Collection](http://www.cise. ufl.edu/research/sparse/matrices/) - 5M edges:
 <img src=http://dcmoura.github.io/3DHEB/img/pattern1_1.png width="67%" align="middle"/> 
