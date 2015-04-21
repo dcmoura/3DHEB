@@ -20,16 +20,14 @@ You may use one of the sample graphs or your own graph in GraphML format.
 The app includes an option to generate high resolution images that you may include in your publications. 
 If you do so, please [cite me](http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1504.02687). Thanks! 
 
-[![Online app](http://dcmoura.github.io/3DHEB/img/js_app.png)](http://dcmoura.github.io/3DHEB/)
+[![Online app](http://dcmoura.github.io/3DHEB/img2/js_app.png)](http://dcmoura.github.io/3DHEB/)
 
 
 ## Gallery 
 Some images produced with this code, and an animation based on an extension of this code.
 
 * Animation based on 3DHEB:
-[![Animation based on 3DHEB](http://dcmoura.github.io/3DHEB/img/video_poster_3dheb_2.png)](https://vimeo.com/danielcmoura/3dheb)
-
-
+[![Animation based on 3DHEB](http://dcmoura.github.io/3DHEB/img2/video_poster_3dheb_2.png)](https://vimeo.com/danielcmoura/3dheb)
 
 * US Migrations Flow - 10K edges:
 ![US Migrations Flow](http://dcmoura.github.io/3DHEB/img/migrations_flow.png)
