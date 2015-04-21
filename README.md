@@ -1,16 +1,16 @@
 #3DHEB
-==========
+
 3DHEB is a graph bundling algorithm that bundles edges of a graph to reveal connectivity patterns. 
 3DHEB allows to tackle large graphs (tested on graphs with 5M edges) and has low computation times when compared to other bundling algorithms. 
-In addition, it enables to specify the bundling criteria. Here we include a flow criteria based on edge orientation in addition to the default criteria based on edge proximity.
+In addition, it enables to specify the bundling criteria. Here, a flow criteria based on edge orientation is included in addition to the default criteria based on edge proximity.
 
 ## Algorithm description
 The algorithm is described here: [arxiv.org/abs/1504.02687](http://arxiv.org/abs/1504.02687).
 
 ## Implementation
 Currently, a basic implementation of the algorithm is provided. The code is fully compatible with Processing (Java and JavaScript). 
-This code is a simplified version of the code used in the [paper](http://arxiv.org/abs/1504.02687). Features requiring Java libraries ere not included 
-(e.g. multi-threading, clustering and colour tables) as well as features that do not work well in processing.js 
+This code is a simplified version of the code used in the [paper](http://arxiv.org/abs/1504.02687). Features requiring Java libraries were not included 
+(e.g. multi-threading, clustering and colour tables) as well as features that did not work well in JavaScript mode  
 (e.g. polylines with varying width and colour and hardware accelerated rendering). 
 Thus, this implementation is slower than the original and has not got as many features, but still enables to performance very nice bundles out-of-the-box! 
 
