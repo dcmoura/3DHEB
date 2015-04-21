@@ -101,11 +101,6 @@ function ps() { return Processing.getInstanceById(getProcessingSketchId()); }
 
 <input type="radio" name="source" value="1000.random" checked onclick="ps().loadGraph('1000.random');">Random (1K edges)
 <br>
-
-<input type="radio" name="source" value="p1"  onclick="ps().loadGraph('pattern1.txt');">Pattern (5M edges)
-<br>
-
-
 <input type="radio" name="source" value="airlines_original.graphml" onclick="ps().loadGraph('airlines_original.graphml');">US Airlines (1K edges)
 <br>
 <input type="radio" name="source" value="migrations.graphml" onclick="ps().loadGraph('migrations.graphml');">US Migrations (10K edges)
