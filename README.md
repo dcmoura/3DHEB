@@ -26,9 +26,15 @@ If you do so, please [cite me](http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv
 ## Gallery 
 Some images produced with this code, and an animation based on an extension of this code.
 
+<p align="center">
 [![Animation based on 3DHEB](http://dcmoura.github.io/3DHEB/img/video_poster_3dheb_2.png)](https://vimeo.com/danielcmoura/3dheb)
+Animation based on 3DHEB
+</p>
 
+<p align="center">
 ![US Migrations Flow](http://dcmoura.github.io/3DHEB/img/migrations_flow.png)
+US Migrations Flow
+</p>
 
 ![US Airlines Flow](http://dcmoura.github.io/3DHEB/img/airlines_flow.png)
 
