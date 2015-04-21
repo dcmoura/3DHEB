@@ -26,12 +26,16 @@ If you do so, please [cite me](http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv
 ## Gallery 
 Some images produced with this code, and an animation based on an extension of this code.
 
+* Animation based on 3DHEB
 [![Animation based on 3DHEB](http://dcmoura.github.io/3DHEB/img/video_poster_3dheb_2.png)](https://vimeo.com/danielcmoura/3dheb)
 
+* US Migrations Flow - 10K edges
 ![US Migrations Flow](http://dcmoura.github.io/3DHEB/img/migrations_flow.png)
 
+* US Airlines Flow - 1K edges
 ![US Airlines Flow](http://dcmoura.github.io/3DHEB/img/airlines_flow.png)
 
+* Pattern1 from the [University of Florida Sparse Matrix Collection](http://www.cise. ufl.edu/research/sparse/matrices/)
 ![Pattern1 from the University of Florida Sparse Matrix Collection](http://dcmoura.github.io/3DHEB/img/pattern1_1.png)
 
 
