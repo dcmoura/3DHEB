@@ -98,8 +98,14 @@ function ps() { return Processing.getInstanceById(getProcessingSketchId()); }
 
 <font size=3 color="white">First, select a graph</font></big><br><br>	
 
+
 <input type="radio" name="source" value="1000.random" checked onclick="ps().loadGraph('1000.random');">Random (1K edges)
 <br>
+
+<input type="radio" name="source" value="p1"  onclick="ps().loadGraph('pattern1.txt');">Pattern (5M edges)
+<br>
+
+
 <input type="radio" name="source" value="airlines_original.graphml" onclick="ps().loadGraph('airlines_original.graphml');">US Airlines (1K edges)
 <br>
 <input type="radio" name="source" value="migrations.graphml" onclick="ps().loadGraph('migrations.graphml');">US Migrations (10K edges)
@@ -199,12 +205,29 @@ Edge alpha<br><input step="0.005" max="0.25" min="0.005" value="0.011764706" nam
 			<big>
 			Also, check out this video created with 3DHEB: <a href="javascript:window.open('http://vimeo.com/danielcmoura/3dheb');">vimeo.com/danielcmoura/3dheb</a>!
 			</big>
-			<!-- <iframe src="https://player.vimeo.com/video/124638700" width="800" height="415" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/124638700">Origins and destinations of Porto&rsquo;s bus passengers based on Wi-Fi</a> from <a href="https://vimeo.com/danielcmoura">Daniel Moura</a> on <a href="https://vimeo.com">Vimeo</a>.</p> -->
+			<!-- 
+			<iframe src="https://player.vimeo.com/video/124650835" width="750" height="389" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/124650835">Animated edge bundling for visualising the flow of bus passengers in Porto</a> from <a href="https://vimeo.com/danielcmoura">Daniel Moura</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+			http://vimeo.com/api/v2/video/124650835.php
+			
+			-->
 	    	</div>
 			
 			
 
 			
 		</div>
+		
+		
+		<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-62088667-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+		
 	</body>
 </html>
